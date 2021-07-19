@@ -1,0 +1,136 @@
+
+.slider {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  
+  .slide.active {
+    text-align: center;
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  @keyframes slidein {
+    from {
+      opacity: 0;
+    }
+    to {    
+      opacity: 1;
+     }
+  }
+
+  .name{
+      text-align: center;
+      margin: 0 auto 20px auto;
+      color: rgb(255, 154, 4);
+  }
+
+  .link-wrapper{
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+  }
+ .button{
+      width:200px;
+      height:50px;
+      justify-content: space-around;
+      border-radius: 20px;
+      font-size: 20px;
+      align-items: center;
+      text-decoration: none;
+      color: #000;
+  }
+  
+  .button:hover{
+    background-color:grey;
+  }
+  .button > a{
+    text-decoration: none;
+    color: #000;
+}
+  .button:hover > a{
+    color: red;
+  }
+  .button:active > a{
+    color: #000;
+  }
+  .button:first-child {
+      margin-right: 30px;
+  }
+
+
+  .description{
+      width: 50%;
+      margin-top:20px auto;
+      text-align: center;
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+      background-color: lightgreen;
+      border-radius:20px;
+  }
+
+  @media(max-width: 1024px) {
+    .right-arrow, .left-arrow{
+      top: 40%;
+    }
+}
+
+
+  @media(max-width: 450px) {
+    .image{
+      width:200px;
+      height:170px;
+  }
+  .right-arrow, .left-arrow{
+    top: 55%;
+  } 
+
+  .link-wrapper > .button{
+    height:50px;
+    font-size: 16px;
+  }
+    .button:first-child {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+    .description{
+      text-align: justify;
+  }
+  } 

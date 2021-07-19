@@ -1,0 +1,124 @@
+
+.container{
+    height:100vh;
+    width:100%;
+    background: rgb(48, 48, 48);
+    color: #ffffff;
+}
+
+.wrapper{
+    display:block;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 80%;
+    text-align: justify;
+  }
+  .titleBlock{
+    display:flex;
+    align-items: center;
+    margin-left: 300px;
+    width: 70%;
+
+  }
+.wrapper > h1{
+    display:block;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: 5px gold underline; ;}
+.wrapper p > h2{
+  font-style: italic;
+}
+.skillsList{
+    margin-top:20px;
+}
+.level {
+    margin: 4px 0 16px;
+    padding: 0;
+    height: 14px;
+    font-size: 0;
+    background-color: #080208;
+    border: 1px solid #712073;
+    border-radius: 8px;
+  }
+  
+  .level div {
+    margin: 1px;
+    height: 12px;
+    background-color: #fea18d;
+    border-radius: 6px;
+  }
+
+  .levelHTMLPercents{
+    width:99%;
+  } 
+   .levelCSSPercents{
+    width:90%;
+  }       
+  .levelJSPercents{
+      width:70%;
+  }
+
+  .greeting{
+    display:flex;
+    align-items: center;
+    width: 40%;
+    margin-right: 50px;
+
+
+  }
+  .greeting > h1{
+    font-size: 40px;
+    margin-right: 20px;
+  }
+  .greeting > img{
+    width:100px;
+    background-size: cover;
+    background-color: transparent;
+  }
+  
+  .avatarWrapper > img{
+    width:300px;
+    background-size: cover;
+    border: 5px solid rgb(245, 245, 245);
+    border-radius: 30px;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 20%;
+    }
+  
+    to {
+      margin: 0;
+    }
+  }
+
+  @media(max-width:450px) {
+    .container{
+      height:1060px;
+    }
+    .titleBlock{
+      margin-left: 50px;
+    }
+    .avatarWrapper > img{
+      width:100%;
+      border: 2px solid rgb(245, 245, 245);
+    }
+    .greeting{
+      margin: 0 10px 10px 0;
+    }
+    .greeting > img{
+      width:50px;
+    }
+    .greeting > h1{
+      font-size: 20px;
+    }
+    .wrapper > h1{
+        font-size: 30px;
+        margin: 0;
+  
+    }
+}

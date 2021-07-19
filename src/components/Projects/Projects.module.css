@@ -1,0 +1,45 @@
+section{
+    background: rgb(48, 48, 48);
+    width:100%;
+  }
+.container{
+    background: rgb(48, 48, 48);
+}
+
+.wrapper{
+    display:block;
+    margin: 0 auto;
+    padding-top: 20px;
+    width:60%;
+    height: 95vh;
+}
+
+.wrapper > h1{
+    display:block;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(231, 227, 227);
+    text-decoration: 5px gold underline; ;
+
+}
+
+.projectsContainer{
+    display: grid;
+    grid-template-columns: 3fr;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+@media(max-width: 450px) {
+    .container{
+        height:100vh;
+    }
+    .wrapper > h1{
+        font-size: 30px;
+        width:150px;
+    }
+
+}

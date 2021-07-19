@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.appbar{
+    display:flex;
+    margin: 0 auto;
+    background:rgb(37, 37, 37);
+    height:10vh;
+    align-items:center;
+
+}
+.toolbar{
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width:800px;
+    font-size: 20px;
+    align-items:center;
+
+    
+}
+
+.toolbar > a{
+    text-decoration:none;
+    color: rgb(255, 255, 236);
+    font-size: 40px;
+    
+}
+
+@media(max-width: 768px) {
+    .toolbar > a{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 450px) {
+    .toolbar > a{
+        font-size: 20px;
+    }
+}
