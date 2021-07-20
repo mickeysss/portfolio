@@ -137,6 +137,9 @@ background-color:#fea18d ;
 }
 
 @media(max-width: 450px) {
+	.container{
+		height:100%;
+	}
     .contacts{
         display: flex;
         flex-direction: column;
