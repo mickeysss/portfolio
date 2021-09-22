@@ -19,11 +19,11 @@ const About = () => {
                     Бакалавр. РГЭУ(РИНХ) Факультет Менеджмента и Предпринимательства. Менеджменты организации
                     Магистр. ЮФУ (бывш. РГУ) Факультет Управления. Управление Финансами
                     <h2>Достижения:</h2>
-                    Курсы 
-                    LEARN.JAVASCRIPT.RU 
-                    Современный учебник Javascript
-                    Видеокурс 100 уроков React JS – путь самурая 1.0
-                    HTML ACADEMY
+                    1) Прошел курс "Базовый HTML и СSS" от HTML ACADEMY
+                    2) "Полный курс по JavaScript + React - с нуля до результата" от Udemy;
+                    3) Курс "Практический JavaScript (Продвинутый уровень)" от Udemy;
+                    4) Курс "React JS - путь самурая 1.0", 100 уроков + практика" от IT-KAMASUTRA; 
+                    
                     Основы HTML и CSS
                     <dl className={styles.skillsList}>
                         <dt className={styles.skillHtml}>HTML</dt>
