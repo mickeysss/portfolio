@@ -27,7 +27,6 @@ const About = () => {
                     <li>Курс "Практический JavaScript (Продвинутый уровень)" от Udemy</li>
                     <li>Курс "React JS - путь самурая 1.0", 100 уроков + практика" от IT-KAMASUTRA</li> 
                     </ul>
-                    Основы HTML и CSS
                     <dl className={styles.skillsList}>
                         <dt className={styles.skillHtml}>HTML</dt>
                         <dd className={styles.level}>
